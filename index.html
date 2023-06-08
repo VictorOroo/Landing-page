@@ -8,53 +8,70 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="navigationbar">
+ <div class="Header">
+     <div class="navigationbar">
       
-        <div class="logo">
-            <!--logo-->
-            <h3>John Doe</h3>
+            <div class="logo">
+               <!--logo-->
+              <h3>&ltJohn <span class="red">Doe/&gt</span></h3>
 
-        </div>
-        <nav>
-            <!--navigation-links-->
+            </div>
+            <nav>
+                <!--navigation-links-->
             
-            <ul>
-                <li>
-                    <a href="">ABOUT</a>
-                </li>
-                <li>
-                    <a href="">SERVICES</a>
-                </li>
-                <li>
-                    <a href="">SKILLS</a>
-                </li>
-                <li>
-                    <a href="">EXPERIENCE</a>
-                </li>
-                <li>
-                    <a href="">PROJECTS</a>
-                </li>
-                <li>
-                    <a href="">CONTACTS</a>
-                </li>
+               <ul>
+                  <li>
+                    <a href="/">ABOUT</a>
+                  </li>
+                  <li>
+                    <a href="/">SERVICES</a>
+                  </li>
+                    <li>
+                      <a href="/">SKILLS</a>
+                    </li>
+                 <li>
+                    <a href="/">EXPERIENCE</a>
+                  </li>
+                  <li>
+                    <a href="/">PROJECTS</a>
+                  </li>
+                  <li>
+                    <a href="/">CONTACTS</a>
+                  </li>
                 
-            </ul> 
-        </nav>
+                </ul> 
+            </nav>
         
     </div>
-    <div>
-        <!--Heading information-->
-        <h1>Hi, I'm John Doe<br>
-            Fullstack Developer
-        </h1>
-        <p>Experienced Fullstack Developer with a demonstrated history of working<br>in the internet industry.Building web applications with Angular, PHP,<br> Laravel, Python, Django, Flask, MySql/Postgress and some other cool libraries and frameworks.</p>
-        <button>View Resume</button>
-        <button>Contact Me</button>
-        <a href=""><img src="./logo-images/icons8-github.svg" alt=""/></a>
-        <a href=""><img src="./logo-images/icons8-linkedin.svg" alt=""/></a>
-        <a href=""><img src="./logo-images/icons8-twitter (1).svg" alt=""/></a>
-        <a href=""><img src="./logo-images/icons8-google-32.svg" alt=""/></a>
-        <img src="" alt="">
+</div>
+   
+    <div class="mydetails">
+        <div> 
+            <!--Heading information-->
+            <h1 class="introduction">Hi, I'm <span class="red2">John Doe</span><br>
+                Fullstack Developer
+            </h1>
+
+        
+            <p>Experienced Fullstack Developer with a demonstrated history of working<br>in the internet industry.Building web applications with Angular, PHP,<br> Laravel, Python, Django, Flask, MySql/Postgress and some other cool libraries and frameworks.</p>
+            <div class="buttons">
+                <button class="button">
+                 <a href="">View Resume</a>
+                </button>
+                <button class="button">
+                 <a href="">Contact Me</a>
+                </button>
+            </div>
+            <div class="sociallinks">
+               <a href="https://github.com/"><img src="./logo-images/icons8-github.svg" alt="github.com"/></a>
+               <a href="https://linkedin.com"><img src="./logo-images/icons8-linkedin.svg" alt="linkedin.com"/></a>
+               <a href="https://twitter.com"><img src="./logo-images/icons8-twitter (1).svg" alt="twitter.com"/></a>
+               <a href="https://www.google.com/"><img src="./logo-images/icons8-google-32.svg" alt="google.com"/></a>
+            </div>
+            <div class="profileimage">
+              <img class="my-image" src="./profilepic/depositphotos_303265978-stock-illustration-sept-2019-famous-entrepreneur-and.jpg" alt="image of Elon Musk">
+            </div>
+        </div>
     </div>
 </body>
 </html>

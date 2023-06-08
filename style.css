@@ -1,22 +1,23 @@
 body{
-    padding: 0;
-    margin: 0 auto;
-    font-family: 'Times New Roman', Times, serif;
-    background-color:cornsilk;
+    background-color: blanchedalmond;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+
    
     
 
 }
 
 a{
-    text-decoration: 0;
+    text-decoration: none;
+    color: black;
 }
 
-#navigationbar{
+.navigationbar{
     display: flex;
     border: 1px solid;
     padding: 0;
-    box-shadow: 5px 10px 18px crimson;
+    box-shadow: 5px 10px 18px;
     margin: auto;
     
 }
@@ -32,5 +33,67 @@ nav ul{
 nav ul li{
     padding-right: 10px;
     justify-content: space-between;
+    margin-right: 50px;
+    
 
 }
+.logo{
+    margin-right: 200px;
+    font-size: 15px;
+   
+}
+.red{
+    color: red;
+}
+.red2{
+    color: red;
+}
+.mydetails{
+    padding-top: 100px;
+    display: flex;
+    
+    align-items: center;
+    
+}
+.introduction{
+    font-size: 3em;
+}
+
+.buttons{
+    justify-content: space-between;
+    padding-right: 200px;
+}
+
+.button{
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    border: 2px solid red;
+    border-radius: 25px;
+    
+
+    }
+.sociallinks{
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sociallinks a{
+    justify-content: space-between;
+    padding-right: 20px;
+    
+}
+
+.my-image{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    right: 95px;
+    top: 200px;
+  
+   
+}
+    
+
+    
